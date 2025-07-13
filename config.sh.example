@@ -1,0 +1,14 @@
+#!/bin/bash
+# Configuration file for the Ultimate VPN Deployment Script
+
+# Number of VPN users to create
+VPN_USERS=5
+
+# The URL to redirect unauthorized traffic to
+CLOAK_REDIR="www.bing.com"
+
+# The DNS server for VPN clients
+DNS_SERVER="1.1.1.1"
+
+# The interval for path rotation in hours
+PATH_ROTATION_INTERVAL=6
